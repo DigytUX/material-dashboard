@@ -2,7 +2,6 @@ import React from 'react'
 import './sidebar.scss'
 import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
-import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
 import AnalyticsOutlinedIcon from '@mui/icons-material/AnalyticsOutlined';
 import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
