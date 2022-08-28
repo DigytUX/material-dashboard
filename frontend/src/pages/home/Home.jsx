@@ -9,12 +9,12 @@ export default function Home(){
         <>
             <div className='home'>
                 <SideBar />
-                <div className="home-container">
+                <div className='home-container'>
                     <NavBar />
-                    <div className="widgets">
-                        <Widget />
-                        <Widget />
-                        <Widget />
+                    <div className='widgets'>
+                        <Widget type='order' />
+                        <Widget type='user'  />
+                        <Widget type='balance' />
                     </div>
                 </div>
             </div>
