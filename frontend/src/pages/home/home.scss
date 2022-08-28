@@ -1,7 +1,11 @@
 .home {
     display:flex;
     .home-container {
-        // display:flex;
         flex:4;
+        .widgets {
+            display:flex;
+            padding:2em;
+            gap:1em;
+        }
     }
 }

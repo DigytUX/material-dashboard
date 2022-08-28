@@ -25,12 +25,10 @@ export default function SideBar(){
                             <DashboardOutlinedIcon className="icon" />
                             <span className="dashboard">Dashboard</span>
                         </li>
-                        <hr className="hr" />
                         <li>
                             <PeopleAltOutlinedIcon className="icon" />
                             <span className="dashboard">Users</span>
                         </li>
-                        <hr className="hr" />
                         <li>
                             <Inventory2OutlinedIcon className="icon" />
                             <span className="dashboard">Products</span>
@@ -40,7 +38,6 @@ export default function SideBar(){
                             <AnalyticsOutlinedIcon className="icon" />
                             <span className="dashboard">Stats</span>
                         </li>
-                        <hr className="hr" />
                         <li>
                             <NotificationsActiveOutlinedIcon className="icon" />
                             <span className="dashboard">Notifications</span>
