@@ -34,7 +34,7 @@
                 display:flex;
                 gap:1em;
                 align-items: center;
-                padding:1em 0.5em;
+                padding:1em;
                 cursor: pointer;
                 span {
                     color:#6439ff;
@@ -54,6 +54,25 @@
             }
             .icon {
                 color:#6439ff;
+            }
+        }
+    }
+    .bottom {
+        display:flex;
+        align-items:center;
+        padding:2rem;
+        gap:1em;
+        .color-option {
+            width:20px;
+            height:20px;
+            border-radius: 5px;
+            border:1px solid #6439ff;
+            cursor: pointer;
+            &:nth-child(1){
+                background-color:whitesmoke
+            }
+            &:nth-child(2){
+                background-color:rgb(35, 35, 35)
             }
         }
     }

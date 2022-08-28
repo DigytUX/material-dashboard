@@ -1,16 +1,15 @@
 import React from 'react'
 import './sidebar.scss'
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import GroupIcon from '@mui/icons-material/Group';
+import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
+import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
-import Inventory2Icon from '@mui/icons-material/Inventory2';
-import AnalyticsIcon from '@mui/icons-material/Analytics';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
+import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
+import AnalyticsOutlinedIcon from '@mui/icons-material/AnalyticsOutlined';
+import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
+import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutlined';
 import DataArrayIcon from '@mui/icons-material/DataArray';
-import SettingsIcon from '@mui/icons-material/Settings';
-import LogoutIcon from '@mui/icons-material/Logout';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';import LogoutIcon from '@mui/icons-material/Logout';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 
 export default function SideBar(){
     return (
@@ -23,32 +22,32 @@ export default function SideBar(){
                     <ul>
                         <p className="title">Main</p>
                         <li>
-                            <DashboardIcon className="icon" />
+                            <DashboardOutlinedIcon className="icon" />
                             <span className="dashboard">Dashboard</span>
                         </li>
                         <hr className="hr" />
                         <li>
-                            <GroupIcon className="icon" />
+                            <PeopleAltOutlinedIcon className="icon" />
                             <span className="dashboard">Users</span>
                         </li>
                         <hr className="hr" />
                         <li>
-                            <Inventory2Icon className="icon" />
+                            <Inventory2OutlinedIcon className="icon" />
                             <span className="dashboard">Products</span>
                         </li>
                         <p className="title">Useful links</p>
                         <li>
-                            <AnalyticsIcon className="icon" />
+                            <AnalyticsOutlinedIcon className="icon" />
                             <span className="dashboard">Stats</span>
                         </li>
                         <hr className="hr" />
                         <li>
-                            <NotificationsIcon className="icon" />
+                            <NotificationsActiveOutlinedIcon className="icon" />
                             <span className="dashboard">Notifications</span>
                         </li>
                         <p className="title">Service</p>
                         <li>
-                            <HealthAndSafetyIcon className="icon" />
+                            <HealthAndSafetyOutlinedIcon className="icon" />
                             <span className="dashboard">System Health</span>
                         </li>
                         <li>
@@ -56,12 +55,12 @@ export default function SideBar(){
                             <span className="dashboard">Logs</span>
                         </li>
                         <li>
-                            <SettingsIcon className="icon" />
+                            <SettingsOutlinedIcon className="icon" />
                             <span className="dashboard">Settings</span>
                         </li>
                         <p className="title">User</p>
                         <li>
-                            <AccountCircleIcon className="icon" />
+                            <AccountCircleOutlinedIcon className="icon" />
                             <span className="dashboard">Profile</span>
                         </li>
                         <li>
@@ -71,7 +70,11 @@ export default function SideBar(){
                     </ul>
                 </div>
                 <hr className="hr" />
-                <div className="bottom">color options</div>
+                <div className="bottom">
+                    <div className="color-option"></div>
+                    <div className="color-option"></div>
+
+                </div>
             </div>
         </>
     )
