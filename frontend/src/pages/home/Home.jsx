@@ -8,7 +8,9 @@ export default function Home(){
         <>
             <div className='home'>
                 <SideBar />
-                <div className="home-container">Home Container</div>
+                <div className="home-container">
+                    <NavBar />
+                </div>
             </div>
         </>
     )
