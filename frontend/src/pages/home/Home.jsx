@@ -1,11 +1,14 @@
 import React from 'react'
 import './home.scss'
+import NavBar from '../../components/NavBar/NavBar'
+import SideBar from '../../components/SideBar/SideBar'
 
 export default function Home(){
     return (
         <>
             <div className='home'>
-                <h1 className='title'>Home</h1>
+                <SideBar />
+                <div className="home-container">Home Container</div>
             </div>
         </>
     )
