@@ -32,9 +32,11 @@ export default function NavBar(){
                         </div>
                         <div className="item"> 
                             <NotificationsOutlinedIcon  className="icon" />
+                            <div className="counter">2</div>
                         </div>
                         <div className="item"> 
                             <FormatListBulletedOutlinedIcon className="icon" />
+                            <div className="counter">1</div>
                         </div>
                         <div className="item"> 
                             <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" alt="" className="avatar" />

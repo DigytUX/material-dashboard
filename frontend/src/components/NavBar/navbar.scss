@@ -22,7 +22,7 @@
             padding:0.25em 1em;
             .icon {
                 cursor:pointer;
-                color:#001eff;
+                color:#333;
             }
             input {
                 border:none;
@@ -42,12 +42,23 @@
                 justify-content: center;
                 cursor:pointer;
                 gap:0.25em;
-                color:#001eff;
+                color:#333;
                 .icon {
                     cursor:pointer;
                     font-size:20px;
-                    color:#001eff;
-                }   
+                    color:#333;
+                } 
+                .counter {
+                    background-color:rgba(255, 0, 0, 0.909);
+                    width:2em;
+                    height:2em;
+                    display:flex;
+                    align-items:center;
+                    justify-content: center;
+                    border-radius:50%;
+                    font-size:0.5em;
+                    color:white;
+                }  
                 .avatar {
                     width:40px;
                     height:40px;

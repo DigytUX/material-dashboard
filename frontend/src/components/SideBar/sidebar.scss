@@ -11,7 +11,7 @@
         .logo {
             font-size:20px;
             font-weight: bold;
-            color:#001eff;
+            color:#333;
         }
     }
     .hr {
@@ -37,7 +37,7 @@
                 padding:1em;
                 cursor: pointer;
                 span {
-                    color:#001eff;
+                    color:#333;
                 }
                 &:hover {
                     span {
@@ -45,7 +45,7 @@
                     }
                 }
                 &:hover {
-                    background-color:#001eff;
+                    background-color:rgb(30, 0, 255);
                     color:white;
                     .icon {
                         color:white;
@@ -53,7 +53,7 @@
                 }
             }
             .icon {
-                color:#001eff;
+                color:#333;
             }
         }
     }
@@ -66,7 +66,7 @@
             width:30px;
             height:30px;
             border-radius: 5px;
-            border:1px solid #001eff;
+            border:1px solid #333;
             cursor: pointer;
             &:nth-child(1){
                 background-color:whitesmoke
