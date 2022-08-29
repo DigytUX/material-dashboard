@@ -7,7 +7,10 @@ import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalance
 import './widget.scss'
 
 export default function Widget({type}){
-    let data = { title:'test'}
+    let data 
+
+    const amount = 100
+    const diff = 20
 
     switch(type){
         case 'user':
@@ -15,7 +18,7 @@ export default function Widget({type}){
                 title:'USERS',
                 isMoney:false,
                 link:'Sell all users',
-                icon:<PeopleAltOutlinedIcon />
+                icon:<PeopleAltOutlinedIcon className="icon" style={{backgroundColor:'black'}}/>
             }
         break;
         case 'order':
@@ -23,7 +26,7 @@ export default function Widget({type}){
                 title:'ORDERS',
                 isMoney:false,
                 link:'View all orders',
-                icon:<Inventory2OutlinedIcon />
+                icon:<Inventory2OutlinedIcon className="icon"/>
             }
         break;
         case 'earnings':
@@ -31,7 +34,7 @@ export default function Widget({type}){
                 title:'EARNINGS',
                 isMoney:true,
                 link:'View net earnings',
-                icon:<MonetizationOnOutlinedIcon  />
+                icon:<MonetizationOnOutlinedIcon  className="icon" style={{backgroundColor:'black'}}/>
             }
         break;
             case 'balance':
@@ -39,7 +42,7 @@ export default function Widget({type}){
                 title:'BALANCE',
                 isMoney:true,
                 link:'See details',
-                icon:<AccountBalanceWalletOutlinedIcon  />
+                icon:<AccountBalanceWalletOutlinedIcon className="icon"  />
             }
         break;
         default:
@@ -50,14 +53,14 @@ export default function Widget({type}){
             <div className='widget shadow'>
                 <div className='left'>
                     <span className='title'>{data.title}</span>
-                    <div className='counter'>3,429</div>
+                    <div className='counter'>{data.isMoney && "$"}{amount}</div>
                     <span className='link'>{data.link}</span>
                 </div>
                 <div className='right'>
                     <div className='percentage positive'>
-                        {data.icon}20%
+                    {diff}
                     </div>
-                    <PeopleAltOutlinedIcon className='icon' />
+                    {data.icon}
                 </div>
             </div>
         </>
