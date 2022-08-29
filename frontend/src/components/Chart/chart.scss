@@ -1,0 +1,66 @@
+.chart {
+    flex:2;
+    justify-content: space-between;
+    padding:2em;
+    background-color:rgb(255, 255, 255);
+    border-radius:0.5em;
+    height:auto;
+    position:relative;
+    .left, .right {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    .title {
+        font-size:14px;
+    }
+    .counter {
+        font-size:40px;
+        margin-bottom:.5em;
+        color:rgb(63, 117, 255);
+    }
+    .link {
+        width:max-content;
+        font-size: 12px;
+        border-bottom:1px solid gray;
+        position:absolute;
+        bottom:2em;
+        left:2em;
+        cursor: pointer;
+        color:#888;
+    }
+    .percentage {
+        display:flex;
+        align-items: center;
+        font-size:16px;
+        position:absolute;
+        top:1em;
+        right:2em;
+        &.positive {
+            color:rgb(52, 199, 52);
+        }
+        &.negative {
+            color:rgb(255, 41, 41);
+        }
+    }
+    .icon {
+        font-size:18px;
+        background:rgb(63, 117, 255);
+        color:white;
+        width:40px;
+        height:40px;
+        padding:0.5em;
+        border-radius: 50%;
+        position:absolute;
+        bottom:2em;
+        right:2em;
+    }
+}
+
+.shadow {
+    box-shadow: 0 1px 1px rgba(0, 30, 255, 0.03), 
+                0 2px 2px rgba(0, 30, 255,0.03), 
+                0 4px 4px rgba(0, 30, 255,0.03), 
+                0 8px 8px rgba(0, 30, 255,0.03),
+                0 16px 16px rgba(0, 30, 255,0.03);
+}

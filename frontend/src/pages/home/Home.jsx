@@ -3,6 +3,8 @@ import './home.scss'
 import NavBar from '../../components/NavBar/NavBar'
 import SideBar from '../../components/SideBar/SideBar'
 import Widget from '../../components/Widget/Widget'
+import FeaturedChart from '../../components/FeaturedChart/FeatureChart'
+import Chart from '../../components/Chart/Chart'
 
 export default function Home(){
     return (
@@ -16,6 +18,10 @@ export default function Home(){
                         <Widget type='user'  />
                         <Widget type='balance' />
                     </div>
+                    <div className='charts'>
+                        <FeaturedChart />
+                        <Chart />
+                    </div>  
                 </div>
             </div>
         </>
