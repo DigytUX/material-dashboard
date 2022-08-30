@@ -19,7 +19,7 @@ export default function Home(){
                         <Widget type='balance' />
                     </div>
                     <div className='charts'>
-                        <FeaturedChart />
+                        <FeaturedChart type="bubble" />
                         <Chart />
                     </div>  
                 </div>
